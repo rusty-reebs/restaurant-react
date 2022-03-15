@@ -466,6 +466,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.italic {
-  font-style: italic;
+.bg-top {
+  background-position: top;
+}
+
+.font-quattro {
+  font-family: "Quattrocento", serif;
+}
+
+.font-merienda {
+  font-family: "Merienda", Arial, sans-serif;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
