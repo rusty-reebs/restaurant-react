@@ -1,3 +1,5 @@
+//!
+
 import React from "react";
 import kazbegi from "./img/kazbegi.jpeg";
 import NavBar from "./components/Navbar";
