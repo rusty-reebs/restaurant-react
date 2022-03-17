@@ -1,5 +1,7 @@
 // Navbar.js
 
+//TODO no sandwich for mobile, just use hyperlinks across the top
+
 import React from "react";
 
 const NavBar = (props) => {

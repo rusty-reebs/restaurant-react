@@ -1,4 +1,4 @@
-//!
+//! may need to have one main component and change content with props? or re-render each component below the nav, in the same location?
 
 import React from "react";
 import kazbegi from "./img/kazbegi.jpeg";
