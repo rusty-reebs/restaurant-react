@@ -8,7 +8,7 @@ function App() {
   return (
     <div
       className="bg-top"
-      style={{ backgroundImage: "url(" + kazbegi + ")", height: "100vh" }}
+      style={{ backgroundImage: `url(${kazbegi})`, height: "100vh" }}
     >
       <NavBar />
     </div>
