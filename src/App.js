@@ -7,8 +7,12 @@ import NavBar from "./components/Navbar";
 function App() {
   return (
     <div
-      className="bg-top opacity-80"
-      style={{ backgroundImage: `url(${kazbegi})`, height: "100vh" }}
+      className="bg-top"
+      style={{
+        backgroundImage: `url(${kazbegi})`,
+        height: "100vh",
+        // opacity: "0.8",
+      }}
     >
       <NavBar />
     </div>
