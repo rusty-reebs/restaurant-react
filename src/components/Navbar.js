@@ -9,16 +9,18 @@ const NavBar = (props) => {
   return (
     <div className="bg-zinc-700 opacity-90">
       <div
-        className="block font-merienda text-red-500 text-5xl pl-10 leading-tight"
+        className="flex flex-col mx-5 font-merienda text-red-600 text-4xl pt-3 pb-4"
         display={{
           textShadowOffset: { width: "1.5px", height: "1.5px" },
           textShadowRadius: "3px",
-          textShadowColor: "rgba(0,0,0,0.75)",
+          textShadowColor: "white",
         }}
       >
-        🇬🇪 Nina's Georgian Restaurant 🇬🇪
+        <div>🇬🇪 Nina's</div>
+        <div className="ml-16">Georgian</div>
+        <div className="ml-24">Restaurant 🇬🇪</div>
       </div>
-      <nav className="font-quattro text-white text-2xl">
+      <nav className="font-quattro text-white text-2xl pb-4">
         <ul className="flex flex-row justify-around">
           <li className=" hover:bg-black hover:text-white hover:rounded-lg">
             Home
