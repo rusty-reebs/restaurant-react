@@ -21,8 +21,8 @@ const NavBar = (props) => {
         <div className="ml-16">Georgian</div>
         <div className="ml-24">Restaurant 🇬🇪</div>
       </div>
-      <nav className="font-quattro text-white text-2xl pb-4">
-        <div className="flex flex-row justify-around">
+      <nav className="font-quattro text-white text-2xl">
+        <div className="flex flex-row justify-around pb-4 border-b-4">
           <Link
             to="/home"
             className=" hover:bg-black hover:text-white hover:rounded-lg"
