@@ -10,16 +10,15 @@ const NavBar = (props) => {
   return (
     <div className="bg-zinc-700 opacity-90">
       <div
-        className="flex flex-col mx-5 font-merienda text-red-600 text-4xl pt-3 pb-4"
+        className="flex flex-col mx-10 font-merienda text-red-600 text-3xl pt-3 pb-4"
         display={{
           textShadowOffset: { width: "1.5px", height: "1.5px" },
           textShadowRadius: "3px",
           textShadowColor: "white",
         }}
       >
-        <div>🇬🇪 Nina's</div>
-        <div className="ml-16">Georgian</div>
-        <div className="ml-24">Restaurant 🇬🇪</div>
+        <div>🇬🇪 Nina's Georgian</div>
+        <div className="text-right">Restaurant 🇬🇪</div>
       </div>
       <nav className="font-quattro text-white text-2xl">
         <div className="flex flex-row justify-around pb-4 border-b-4">
