@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.textshadow {
+  text-shadow: 1.5px 1.5px 3px black;
+}
