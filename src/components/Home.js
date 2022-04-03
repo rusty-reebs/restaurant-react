@@ -16,22 +16,20 @@ const Home = (props) => {
       }}
     >
       <NavBar />
-      <div className="bg-zinc-700 opacity-90 px-3 py-5">
-        <h2 className="font-quattro text-white text-xl">
-          <p className="text-center font-bold">
-            Gamarjoba! We have all your favorite authentic Georgian recipes,
-            made with pride in my kitchen!
-          </p>
+      <div className="bg-zinc-700 opacity-90 px-3 py-5 font-quattro text-white">
+        <h2 className="text-xl text-center font-bold">
+          Gamarjoba! We have all your favorite authentic Georgian recipes, made
+          with pride in my kitchen!
         </h2>
         <img
           src={interior}
           alt="interior"
           className="my-4 border-8 rounded-md"
         />
-        <h2 className="font-quattro text-white text-xl pb-10">
-          <p className="text-center font-bold">
+        <div className="pb-4">
+          <h2 className="text-xl text-center font-bold">
             What people are saying about Nina's Restaurant:
-          </p>
+          </h2>
           <p className="h-4"></p>
           <p className="text-lg italic">
             "Nina's has the best food I've tasted in Georgia! The khinkhali was
@@ -44,7 +42,7 @@ const Home = (props) => {
             find true Georgian taste and hospitality at Nina's."
           </p>
           <p className="text-lg text-right">- Giorgi, Georgia</p>
-        </h2>
+        </div>
       </div>
     </div>
   );
